@@ -1,0 +1,17 @@
+# Sanal ortam ve önbellek / virtual env and cache
+.venv/
+__pycache__/
+*.pyc
+
+# Editör ve araç ayarları / editor and tool settings
+.claude/
+.vscode/
+
+# Kullanıcı verileri, izlenmez / user data, not tracked
+input_pdfs/*
+md_files/*
+!input_pdfs/.gitkeep
+!md_files/.gitkeep
+
+# Geçici günlükler / temporary logs
+_*.log

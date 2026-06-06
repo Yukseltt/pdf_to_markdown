@@ -1,0 +1,6 @@
+# Hızlı motor, basit metin / fast engine, plain text (Python 3.9+)
+pymupdf4llm>=0.0.17
+
+# Kaliteli motor, matematik + tablo / quality engine, math + tables (Python 3.10+)
+# Büyük indirme, torch + ML modelleri / large download, torch + ML models (~2 GB)
+marker-pdf>=1.0.0
