@@ -5,6 +5,8 @@ bir masaüstü uygulaması.
 / A simple desktop app that converts PDF files into Markdown (`.md`) or plain
 text (`.txt`).
 
+![Uygulama arayüzü / App interface](images/img.png)
+
 ## Neden? / Why?
 
 Claude'a (ve diğer LLM'lere) doğrudan PDF yüklediğinizde her sayfa bir görüntü
@@ -79,6 +81,11 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 ```
+
+> Not / Note: Homebrew Python (macOS) tkinter'ı ayrı paket olarak getirir; arayüz
+> açılmazsa `brew install python-tk@3.14` çalıştırın (Python sürümünüze göre).
+> / Homebrew Python ships tkinter separately; if the GUI does not open, run
+> `brew install python-tk@3.14` (match your Python version).
 
 ## Kullanım / Usage
 
